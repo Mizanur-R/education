@@ -1,0 +1,33 @@
+.para-style {
+  font-size: 16px;
+  color: #6f8197;
+  font-size: 17px; }
+
+.heading-style {
+  font-size: 3rem;
+  color: #1c375b; }
+
+.small-heading {
+  font-size: 1.8rem;
+  color: #1c375b; }
+
+.btn {
+  background-color: #CD4236;
+  border: 1px solid #CD4236;
+  transition: .3s;
+  padding: 10px 15px;
+  border-radius: 2px;
+  color: white;
+  font-size: 19px;
+  font-weight: 500; }
+
+.btn:hover {
+  background: white;
+  color: #CD4236; }
+
+.small-header {
+  color: #CD4236; }
+
+.responsive-btn {
+  font-size: 15px !important;
+  padding: 6px 10px !important; }

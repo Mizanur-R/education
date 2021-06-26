@@ -1,0 +1,264 @@
+@import 'variable';
+
+
+// mobile nav
+header{
+    .container{
+        
+
+        .mobil-menu{
+            position: absolute;
+            top: 12px;
+            right: 10%;
+            font-size: 21px;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
+
+
+@media (max-width: 991px){
+    .course{
+        .col-sm-responsive{
+            width: 80%;
+            margin: auto;
+        }
+    }
+    // details 
+    .details{
+        .video{
+            margin: auto;
+            width: 600px;
+            a{
+                padding: 25px;
+            }
+        }
+    }
+    // student  
+    .student{
+        .student-sat{
+            .item{
+                .carousel-content{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center !important;
+                    padding-top: 30px;
+                    .stu-img{
+                        position: initial;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                    }
+                    .content{
+                        padding: 30px 0 !important;
+
+                        p{
+                            padding: 0 10px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    // footer 
+    .footer{
+        .text-res{
+            text-align: center !important;
+            margin-bottom: 20px;
+            .help-link{
+                h5{
+                    margin-bottom: 10px !important;
+                }
+            }
+            .social-media{
+                ul{
+                    display: flex;
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    header{
+        position: relative;
+
+        .navs{
+            position: absolute;
+            background: #1c375b;
+            width: 83%;
+            top: 60px;
+            right: 10%;
+            left: 10%;
+            border: 2px solid #CD4236;
+            border-radius: 5px;
+            padding: 31px 10px;
+            opacity: 0;
+            visibility: hidden;
+            ul{
+                display: block !important;
+                li{
+                    list-style-type: none;
+                    line-height: 32px;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 500;
+                        transition: .3s;
+                        display: block;
+                    }
+                    a:hover{
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+    // hero section responsive
+    .hero{
+        .container{
+            .hero-content{
+                span{
+                    font-size: 15px !important;
+                }
+                h2{
+                    font-size: 25px !important;
+                }
+                p{
+                    font-size: 14px;
+                }
+                .hero-btn{
+                    font-size: 15px !important;
+                    padding: 6px 10px !important;
+                }
+            }
+        }
+    }
+    // course section
+    .course{
+        .col-sm-responsive{
+            width: 80% !important;
+            margin: auto;
+        }
+    }
+    //details
+    .details{
+        .video{
+            width: auto;
+        }
+    }
+    //team section 
+    .team{
+        .team-responsive{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 575px){
+    .header{
+        .logo{
+            a{
+                img{
+                    width: 80px !important;
+                }
+            }
+        }
+    }
+    // hero section
+    .hero{
+        .hero-content{
+            margin: auto;
+
+            p{
+                display: none;
+            }
+        }
+    }
+    // about us section 
+    .about {
+        .about-content{
+            .about-header{
+                h2{
+                   font-size: $small-header-size;
+                }
+            }
+        }
+    }
+    // course section 
+    .course{
+        .course-heading{
+            h2{
+                font-size: $small-header-size;
+            }
+        }
+        .col-sm-responsive{
+            width: 100% !important;
+            margin: auto;
+        }
+    }
+    // details 
+    .details{
+        .com-course{
+            h5{
+                font-size: 22px !important;
+            }
+            h4{
+                font-size: 20px !important;
+            }
+            p{
+                font-size: 15px !important;
+            }
+        }
+    }
+    // team 
+    .team{
+        .team-heading{
+            h2{
+                font-size: $small-header-size;
+            }
+        }
+        .team-item{
+            .team-img{
+                .team-social{
+                    ul{
+                        li{
+                            a{
+                                font-size: 14px !important;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // teach 
+    .teach{
+        .teach-content{
+            width: 100% !important;
+
+            h3{
+                font-size: 25px !important;
+            }
+            a{
+                font-size: 15px !important;
+            }
+        }
+    }
+    .newsLetter{
+        .new-content{
+            h2{
+                font-size: 25px !important;
+            }
+            form{
+                width: 100% !important;
+            }
+        }
+    }
+
+} 

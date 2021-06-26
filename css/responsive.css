@@ -1,0 +1,156 @@
+.para-style {
+  font-size: 16px;
+  color: #6f8197;
+  font-size: 17px; }
+
+.heading-style {
+  font-size: 3rem;
+  color: #1c375b; }
+
+.small-heading {
+  font-size: 1.8rem;
+  color: #1c375b; }
+
+.btn {
+  background-color: #CD4236;
+  border: 1px solid #CD4236;
+  transition: .3s;
+  padding: 10px 15px;
+  border-radius: 2px;
+  color: white;
+  font-size: 19px;
+  font-weight: 500; }
+
+.btn:hover {
+  background: white;
+  color: #CD4236; }
+
+.small-header {
+  color: #CD4236; }
+
+.responsive-btn {
+  font-size: 15px !important;
+  padding: 6px 10px !important; }
+
+header .container .mobil-menu {
+  position: absolute;
+  top: 12px;
+  right: 10%;
+  font-size: 21px;
+  cursor: pointer;
+  color: white; }
+
+@media (max-width: 991px) {
+  .course .col-sm-responsive {
+    width: 80%;
+    margin: auto; }
+  .details .video {
+    margin: auto;
+    width: 600px; }
+    .details .video a {
+      padding: 25px; }
+  .student .student-sat .item .carousel-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    padding-top: 30px; }
+    .student .student-sat .item .carousel-content .stu-img {
+      position: initial;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto; }
+    .student .student-sat .item .carousel-content .content {
+      padding: 30px 0 !important; }
+      .student .student-sat .item .carousel-content .content p {
+        padding: 0 10px; }
+  .footer .text-res {
+    text-align: center !important;
+    margin-bottom: 20px; }
+    .footer .text-res .help-link h5 {
+      margin-bottom: 10px !important; }
+    .footer .text-res .social-media ul {
+      display: flex;
+      justify-content: center !important; } }
+
+@media (max-width: 767px) {
+  header {
+    position: relative; }
+    header .navs {
+      position: absolute;
+      background: #1c375b;
+      width: 83%;
+      top: 60px;
+      right: 10%;
+      left: 10%;
+      border: 2px solid #CD4236;
+      border-radius: 5px;
+      padding: 31px 10px;
+      opacity: 0;
+      visibility: hidden; }
+      header .navs ul {
+        display: block !important; }
+        header .navs ul li {
+          list-style-type: none;
+          line-height: 32px; }
+          header .navs ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: .3s;
+            display: block; }
+          header .navs ul li a:hover {
+            color: #CD4236; }
+  .hero .container .hero-content span {
+    font-size: 15px !important; }
+  .hero .container .hero-content h2 {
+    font-size: 25px !important; }
+  .hero .container .hero-content p {
+    font-size: 14px; }
+  .hero .container .hero-content .hero-btn {
+    font-size: 15px !important;
+    padding: 6px 10px !important; }
+  .course .col-sm-responsive {
+    width: 80% !important;
+    margin: auto; }
+  .details .video {
+    width: auto; }
+  .team .team-responsive {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 575px) {
+  .header .logo a img {
+    width: 80px !important; }
+  .hero .hero-content {
+    margin: auto; }
+    .hero .hero-content p {
+      display: none; }
+  .about .about-content .about-header h2 {
+    font-size: 1.3rem; }
+  .course .course-heading h2 {
+    font-size: 1.3rem; }
+  .course .col-sm-responsive {
+    width: 100% !important;
+    margin: auto; }
+  .details .com-course h5 {
+    font-size: 22px !important; }
+  .details .com-course h4 {
+    font-size: 20px !important; }
+  .details .com-course p {
+    font-size: 15px !important; }
+  .team .team-heading h2 {
+    font-size: 1.3rem; }
+  .team .team-item .team-img .team-social ul li a {
+    font-size: 14px !important;
+    padding: 5px; }
+  .teach .teach-content {
+    width: 100% !important; }
+    .teach .teach-content h3 {
+      font-size: 25px !important; }
+    .teach .teach-content a {
+      font-size: 15px !important; }
+  .newsLetter .new-content h2 {
+    font-size: 25px !important; }
+  .newsLetter .new-content form {
+    width: 100% !important; } }
